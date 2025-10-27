@@ -23,6 +23,7 @@ export interface CalendarState {
     currentDate: Date;
     view: CalendarView;
     selectedDate: Date | null;
+    selectedEvent: CalendarEvent | null;
     isModalOpen: boolean;
     modalMode: "create" | "edit";
 }

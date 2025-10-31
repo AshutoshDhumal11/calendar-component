@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "deploy-storybook": "storybook build && npx storybook deploy",
-    "build:storybook": "storybook build -o ./dist-storybook"
+    "build-storybook": "storybook build -o ./dist-storybook"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",

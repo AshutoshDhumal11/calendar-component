@@ -70,7 +70,7 @@ export const Modal: React.FC<ModalProps> = ({
           sizeClasses[size]
         )}
       >
-        <div className="fleax items-center justify-between p-6 border-b border-neutral-200">
+        <div className="flex items-center justify-between p-6 border-b border-neutral-200">
           <h2
             id="modal-title"
             className="text-xl font-semibold text-neutral-900"
@@ -79,7 +79,7 @@ export const Modal: React.FC<ModalProps> = ({
           </h2>
           <button
             onClick={onClose}
-            className="p-2 text-neutral-500 hover:text-neutral-700 transition-colors rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
+            className="p-2 text-neutral-500 cursor-pointer hover:text-neutral-700 transition-colors rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
             aria-label="Close modal"
           >
             X
